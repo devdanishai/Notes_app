@@ -43,3 +43,13 @@ cd..
 git init
 git add .
 git commit -m "initial commit"
+git status
+git remote add origin https://github.com/devdanishai/Notes_app.git
+git branch # mostly (* master)
+git branch -M main #rename to main
+
+git pull origin main --allow-unrelated-histories
+
+git push -u origin main
+
+
