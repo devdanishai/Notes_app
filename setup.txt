@@ -1,0 +1,45 @@
+https://www.youtube.com/watch?v=F9gB5b4jgOI
+
+npm init -y
+npm install express@4.18.2
+npm run server.js
+
+# add this in packages.json
+ "scripts": {
+    "dev": "node server.js"
+  },
+# now use following instaed of "npm run server.js"
+npm run dev
+
+# for auto reload
+npm install nodemon -D
+
+# now replace  "dev": "node server.js" with "dev": "nodemon server.js"
+
+npm install mongoose
+npm i dotenv
+
+npm i @upstash/ratelimit@2.0.5 @upstash/redis@1.34.9
+
+
+
+
+
+monogo pass
+user: global998877
+passwd: Wh4jx9ISeS4eH7kM
+
+mongodb+srv://global998877_db_user:Wh4jx9ISeS4eH7kM@cluster0.shtgo75.mongodb.net/?appName=Cluster0
+
+sudo snap install postman
+
+
+----------------------------
+git commands
+cd backend
+rm -rf .git
+cd..
+
+git init
+git add .
+git commit -m "initial commit"
